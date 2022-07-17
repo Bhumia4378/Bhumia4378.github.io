@@ -1,0 +1,22 @@
+{
+  "name": "bhumia4378.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhumia4378/Bhumia4378.github.io.git"
+  },
+  "author": "Sangram Bhumia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhumia4378/Bhumia4378.github.io/issues"
+  },
+  "homepage": "https://github.com/Bhumia4378/Bhumia4378.github.io#readme",
+  "devDependencies": {
+    "firebase-tools": "^11.2.2"
+  }
+}
