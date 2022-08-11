@@ -179,7 +179,7 @@ setTimeout(Writer,3500);
             ****  This page is best viewed on Google Chrome on mobile with javascript enabled. Every element on this page is made to  be interactive. ****</marquee>
 
 
-        <p class="fb" id="fb" onclick="alert(' Have a nice day! 🌻 ' )">
+        <p class="fb" id="fb" onclick="alert('Hello explorer, Have a nice day! 🌻 ' )">
             <b>🌼</b>
         </p>
 
@@ -301,6 +301,8 @@ overflow: scroll;">
         </h2>
 
 
+<input style="width:90%;height:20%;" type="text" id="mesg" value="Send a message anonymously."> <button 
+style="width:" onclick= sender()>Send</button>
 
 
         <p style="text-align:center">
@@ -401,6 +403,12 @@ var sa = document.getElementById('banr');
         }
         function timu() { window.open("https://api.telegram.org/bot2070044946:AAHftnHQPglP0JQ5UHaHwNFK-9PfYc-5vN8/sendMessage?chat_id=1241475522&text=count", '_blank'); }
    
+            function sender() { 
+
+var message= document.getElementById("mesg").value ;
+
+window.open(`https://api.telegram.org/bot2070044946:AAHftnHQPglP0JQ5UHaHwNFK-9PfYc-5vN8/sendMessage?chat_id=1241475522&text=${message}`, '_blank'); }
+        
          const d = new Date();
 var mnth= d.getMonth();
 var dat= d.getDate()
